@@ -79,6 +79,7 @@
 
     .walk-text {
       width: 50%;
+      margin-right: 20px;
 
       @media @mobile {
         display: flex;
@@ -97,30 +98,8 @@
         margin-bottom: 26px;
       }
 
-      .btn {
-        background: @btn-bg-color;
-        border-radius: 5px;
-        display: inline-block;
-        font-size: 1.75rem;
-        padding: 10px 20px;
-
-        a {
-          text-decoration: none;
-          color: white;
-        }
-
-        a:hover {
-          background: white;
-          color: @btn-bg-color;
-          text-decoration: none;
-
-        }
-
-        @media @mobile {
-          display: flex;
-          justify-content: center;
-        }
-      }
+    .btn {
+      .button-creator(200px, 45px, #22283A);     
     }
 
     .walk-img {
@@ -134,9 +113,10 @@
       }
 
       @media @mobile {
-        width: 90%;
+        width: 100%;
       }
     }
 
+    }
   }
 }// home

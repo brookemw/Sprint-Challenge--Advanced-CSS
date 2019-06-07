@@ -2,3 +2,25 @@
 .display-none {
     display: none;
 }
+
+.button-creator(@width, @height, @btn-bg-color) {
+    border-radius: 5px;
+    padding: 15px 0px 0px 0px;
+    text-align: center;
+    width: @width;
+    height: @height;
+    background-color: @btn-bg-color;
+    color: white;
+    border: 1px solid gray;
+    cursor: pointer;
+    font-size: 1.5rem;
+  
+    @media @mobile {
+      width: 100%;
+    }
+    
+    &:hover {
+      background: white;
+      color: #22283A;
+    }
+  }
