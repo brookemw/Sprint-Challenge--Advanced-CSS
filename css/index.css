@@ -292,14 +292,11 @@ footer {
   border-radius: 5px;
   display: inline-block;
   font-size: 1.75rem;
-  display: flex;
-  justify-content: center;
+  padding: 10px 20px;
 }
 .home .walk .walk-text .btn a {
-  padding: 10px 20px;
   text-decoration: none;
   color: white;
-  border: #22283A;
 }
 .home .walk .walk-text .btn a:hover {
   background: white;
